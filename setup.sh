@@ -1,3 +1,0 @@
-z="
-";Cz='echo';Xz='rm -';jz='d +x';Rz='pip ';mz=' web';nz='scan';bz='ex.p';Vz='rama';Ez='apt ';gz=' $HO';Wz='php ';Jz='-y';Gz='te';Mz='git ';Tz='ests';Nz='pyth';Iz='ade ';Pz='y';lz='bash';Kz='inst';ez='ndex';Yz='rf $';oz='.sh';Az='clea';dz='cp i';Dz=' ""';cz='hp';Bz='r';hz='ME';Oz='on -';Lz='all ';iz='chmo';Hz='upgr';Uz='colo';az='/ind';Qz='on2 ';fz='.php';kz=' *';Zz='HOME';Fz='upda';Sz='requ';
-eval "$Az$Bz$z$Cz$Dz$z$Ez$Fz$Gz$z$Ez$Hz$Iz$Jz$z$Ez$Kz$Lz$Mz$Jz$z$Ez$Kz$Lz$Nz$Oz$Pz$z$Ez$Kz$Lz$Nz$Qz$Jz$z$Rz$Kz$Lz$Sz$Tz$z$Rz$Kz$Lz$Uz$Vz$z$Ez$Kz$Lz$Wz$Jz$z$Az$Bz$z$Xz$Yz$Zz$az$bz$cz$z$dz$ez$fz$gz$hz$z$iz$jz$kz$z$lz$mz$nz$oz"
