@@ -1,0 +1,40 @@
+import time
+import os
+import concurrent.futures
+import requests
+try:
+        from colorama import *
+except ImportError:
+        os.system("clear")
+        os.system("pip install colorama")
+import time
+os.system("clear")
+os.system("bash logo")
+print(Style.BRIGHT)
+site = input(Fore.GREEN+" >> LINK OF ADMIN PANEL: "+Fore.GREEN)
+str = site.split("/")
+site = site.replace(str[-1],"")
+print()
+try:
+        opn = open("path.txt","r").readlines()
+except:
+        print(Fore.RED+"\n !! Dork List Not Found !!")
+        quit()
+def scan(x):
+        try:
+                st = x.strip()
+                headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+                r = requests.get(site+st,timeout=10,headers=headers)
+                code = int(r.status_code)
+                if code < 400:
+                        print(Fore.BLUE+" Found --> "+site+st)
+                else:
+                        print(Fore.GREEN+" Not Found -->"+site+st)
+        except Exception as e:
+                b = 2
+try:
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+                executor.map(scan,opn)
+except:
+        print(Fore.GREEN+" [!] Connection Lost!")
+print("\n"+Fore.BLUE+" [+] Scanned Finished [+] ")
