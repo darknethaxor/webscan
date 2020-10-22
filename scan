@@ -27,9 +27,9 @@ def scan(x):
                 r = requests.get(site+st,timeout=10,headers=headers)
                 code = int(r.status_code)
                 if code < 400:
-                        print(Fore.GREEN+" Found --> "+site+st)
+                        print(Fore.GREEN+" [*] Found: "+site+st)
                 else:
-                        print(Fore.BLUE+" Not Found -->"+site+st)
+                        print(Fore.BLUE+" [-] Not Found: "+site+st)
         except Exception as e:
                 b = 2
 try:
