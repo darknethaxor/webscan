@@ -12,7 +12,7 @@ user.php
 events.php
 event.php
 News.php
-Dashboard.php
+Dashboard.phpcu
 Home.php
 upload.php
 images.php
@@ -74,7 +74,6 @@ adm.aspx
 Dashboard.aspx
 DashBoard.aspx
 Admin.aspx
-admin.php
 addblog.php
 add_gallery_image.php
 php-room.php
