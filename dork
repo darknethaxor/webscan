@@ -1,0 +1,57 @@
+from __future__ import print_function
+import time
+import os,sys
+class colors:
+    OKGREEN = "\033[92m"
+    CRED2 = "\33[91m"
+    CBLUE2 = "\33[94m"
+    ENDC = "\033[0m"
+try:
+    import googlesearch
+except ImportError:
+    os.system('pip install googlesearch')
+from googlesearch import search
+if sys.version[0] in "2":
+    print ("\033[1;91m\n[x] Please Run Again \n")
+    exit()
+os.system('bash logo')
+l0g = ("")
+def dorks():
+    try:
+        dork = input("\n\033[1;92m[+] Enter Your Dork: ")
+        amount = input("[+] Site Limit: ")
+        l0g = input("[+] Give The Output File Name: ")
+        print (" ")
+        def logger(user):
+            file = open((l0g) + ".txt", "a")
+            file.write(str(user))
+            file.write("\n")
+            file.close()
+
+        requ = 0
+        flag = 0
+
+        for results in search(dork, tld="com", lang="en", num=int(amount), start=0, stop=None, pause=2):
+            flag = flag + 1
+            print ("\033[34m",results)
+            time.sleep(0.1)
+            requ += 1
+            if requ >= int(amount):
+                break
+
+            user = results
+
+            logger(user)
+            time.sleep(0.1)
+
+    except KeyboardInterrupt:
+            print ("\n")
+            print ("\033[1;91m[!] User Interruption Detected..!\033[0")
+            time.sleep(0.5)
+            sys.exit(1)
+    print (" ")
+    print ("\33[91m[•]  Complete")
+    sys.exit()
+
+if __name__ == "__main__":
+    dorks()
