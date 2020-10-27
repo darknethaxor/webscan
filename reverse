@@ -1,0 +1,33 @@
+import requests
+import sys
+def main():
+	enter = input("\n\033[1;93m[+] Enter your Website: ")
+	l0g = ("")
+	l0g = input("[+] Give The Output File Name: ")
+
+	url = "https://domains.yougetsignal.com/domains.php"
+	payload = {
+		"remoteAddress": enter,
+		"key": "",
+		"_": ""
+	}
+
+	res = requests.post(url, data=payload, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"})
+	api = res.json()
+	print("""
+	Found {} domain hosted on the same web server as {} ({}).
+	""".format(api["domainCount"], api["remoteAddress"], api["remoteIpAddress"]))
+	print("\033[1;96m<--------Here Is Your Websites--------->\033[1;92m")
+	for lst in api.get("domainArray", []):
+		print(lst[0])
+		user = lst[0]
+		def logger(user):
+			file = open((l0g) + ".txt", "a")
+			file.write(str(user))
+			file.write("\n")
+			file.close()
+		logger(user)
+
+
+if __name__ == "__main__":
+	main()
