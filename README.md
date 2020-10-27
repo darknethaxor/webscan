@@ -5,7 +5,7 @@
 2. Admin Panel Scanner
 3. No-redirect
 4. Reverse IP
-5. Dork Scanner
+5. Dork Searcher
 
 ## Installation : 
 
