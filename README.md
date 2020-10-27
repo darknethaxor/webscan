@@ -4,6 +4,8 @@
 1. Admin Panel Finder
 2. Admin Panel Scanner
 3. No-redirect
+4. Reverse IP
+5. Dork Scanner
 
 ## Installation : 
 
