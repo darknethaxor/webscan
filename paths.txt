@@ -4,6 +4,7 @@
 /admin.php
 /admin/
 /Admin/
+/admincp/
 /admin.html
 /administrator/
 /administration/
