@@ -18,6 +18,7 @@
 /adminlogin.php
 /account/
 /adminLogin/
+/backend-master/
 /account.asp
 /account.html
 /account.php
