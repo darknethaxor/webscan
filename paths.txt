@@ -70,6 +70,9 @@
 /webadmin.php
 /webmaster/
 /websvn/
+/admin-login/
+/Login/Admin/
+/admin_html/
 /adminpanel.php
 /admin_area/admin.asp
 /adminarea/admin.asp
