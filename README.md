@@ -6,6 +6,7 @@
 3. No-redirect
 4. Reverse IP
 5. Dork Searcher
+6. Dork Generator
 
 ## Installation : 
 
