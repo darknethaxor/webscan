@@ -1,4 +1,4 @@
-<p align="center"> <a href="#"><img title="HAXOR" src="https://raw.githubusercontent.com/shariat1/dako-to-sahi/master/PicsArt_05-07-11.14.06.png?token=AKJCAT75HWCPRGL237W5EDS6WOV4K"> </a> </p> <br> 
+<p align="center"> <a href="#"><img title="HAXOR" src="https://1.bp.blogspot.com/-ui9y_7kjZQQ/X65oQ5mMZ4I/AAAAAAAAADA/E7NzB1nhbpQn1J1mNGOX3Zx8WtJSrP5AwCLcBGAsYHQ/s320/20201113_170028.png" height="200" width="200"> </a> </p> <br>
 
 ## Features :
 1. Admin Panel Finder
